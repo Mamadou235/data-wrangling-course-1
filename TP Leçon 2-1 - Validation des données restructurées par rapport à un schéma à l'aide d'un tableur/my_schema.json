@@ -1,0 +1,86 @@
+{
+    "name": "_schema_Table_10",
+    "title": "Schema",
+    "description": "A Schema",
+    "fields": [
+        {
+            "name": "HDI_rank",
+            "title": "Classement des HDI",
+            "type": "integer",
+            "description": "Classement de pays de notre database."
+        },
+        {
+            "name": "Country",
+            "title": "Noms de pays",
+            "type": "string",
+            "description": "Il s'agit des noms des pays de la base de données"
+        },
+        {
+            "name": "Life expectancy at birth(years) 1970-1975d",
+            "title": "Espérance de vie à la naissance (années) 1970-1975 ",
+            "type": "number",
+            "description": "Espérance de vie à la naissance (années) des Pays entre 1970-1975."
+        },
+        {
+            "name": "Life expectancy at birth(years) 2000-2005d",
+            "title": "Espérance de vie à la naissance (années) 2000-2005",
+            "type": "number",
+            "description": "Espérance de vie à la naissance (années) des Pays entre 2000-2005."
+        },
+        {
+            "name": "Infant mortality rate(per 1,000 live births) 1970",
+            "title": "mortality_infantile",
+            "type": "integer",
+            "description": "Taux de mortalité infantile (pour 1 000 naissances vivantes) des pays en 1970."
+        },
+        {
+            "name": "Infant mortality rate(per 1,000 live births) 2005",
+            "title": "mortality_infantile",
+            "type": "integer",
+            "description": "Taux de mortalité infantile (pour 1 000 naissances vivantes) des pays en 2005."
+       },
+        {
+           "name": "Under-five mortality rate(per 1,000 live births) 1970",
+            "title": "mortality_under-five 1970",
+            "type": "integer",
+            "description": "Taux de mortalité des moins de cinq ans (pour 1 000 naissances vivantes)  des pays en 1970."
+       },
+        {
+           "name": "Under-five mortality rate(per 1,000 live births) 2005",
+            "title": "mortality_under-five 2005",
+            "type": "integer",
+            "description": "Taux de mortalité des moins de cinq ans (pour 1 000 naissances vivantes) des pays en 2005."
+       },
+        {
+           "name": "Probability at birth of not surviving to age 65a (% of cohort) Female 2000-2005d",
+            "title": "Probabilité_de_naissance_femme",
+            "type": "number",
+            "description": "Probabilité à la naissance de ne pas survivre jusqu'à 65 ans Femmes 2000-2005d  des pays de 2000-2005d."
+       },
+        {
+           "name": "Probability at birth of not surviving to age 65a (% of cohort) Male 2000-2005d",
+            "title": "Probabilité_de_naissance_Male",
+            "type": "number",
+            "description": "Probabilité à la naissance de ne pas survivre jusqu'à 65 ansa (% de la cohorte) Homme des pays de 2000-2005d."
+       },
+       {
+           "name": "Maternal mortality ratio(per 100,000 live births) Reportedb 1990-2005e",
+            "title": "taux de mortality Reporté",
+            "type": "integer",
+            "description": "Taux de mortalité maternelle (pour 100 000 naissances vivantes) Rapportéb 1990-2005e."
+       },
+       {
+           "name": "Maternal mortality ratio(per 100,000 live births) Adjustedc 2005",
+            "title": "taux de mortality Ajusté",
+            "type": "integer",
+            "description": "Taux de mortalité maternelle (pour 100 000 naissances vivantes) Ajustéc 2005."
+       },
+       {
+           "name": "HDI category",
+            "title": "Niveau de developpement",
+            "type": "string",
+            "description": "Les différents categories de developpement de pays de la database."
+       },
+    ],
+    "missingValues": ["NaN", ".."], "Reference":["a","b","c","d","e","f"],
+}
